@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Icecream Flavors Loop</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="headSect">
+        <h1>The Magical Icecream Flavor Listing Machine!</h1>
+        <h4>Please list your top 5 ice cream flavors below in the spaces provided:</h4>
+      </div>
+      <div class="form">
+        <form id="flavorsForm">
+
+          <div class="form-group">
+            <label for="flavorOne" id=flav1>Flavor One:</label>
+            <input id="flavorOne" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="flavorTwo" id=flav2>Flavor Two:</label>
+            <input id="flavorTwo" class="form-control" type="text">
+          </div>
+          
+          <div class="form-group">
+            <label for="flavorThree" id=flav3>Flavor Three:</label>
+            <input id="flavorThree" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="flavorFour" id=flav4>Flavor Four:</label>
+            <input id="flavorFour" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="flavorFive" id=flav5>Flavor Five:</label>
+            <input id="flavorFive" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn btn-secondary" id="formButton">submit</button>
+
+        </form>
+
+        <div class="results">
+          <h5>Based on your entries, here is a list of your favorite flavors:</h5>
+          <ol id="list">
+
+          </ol>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

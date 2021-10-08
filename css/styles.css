@@ -1,0 +1,12 @@
+.headSect {
+  padding: 35px;
+}
+#flavorsForm {
+  max-width: 700px;
+  padding-left: 50px;
+}
+.results {
+  display: none;
+  padding-top: 45px;
+  padding-left: 50px;
+}
